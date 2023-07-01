@@ -1,11 +1,13 @@
-export default function Home() {
+const Page = async () => {
   return (
-    <section className='py-24'>
+    <section className='py-20'>
       <div className='container'>
-        <h1 className='text-3xl font-bold'>
-          NextJs 13 Starter Kit (TypeScript)
+        <h1 className='mb-10 w-fit px-2 text-6xl font-bold text-slate-800'>
+          لوحة التحكم
         </h1>
       </div>
     </section>
   )
 }
+
+export default Page
